@@ -24,11 +24,37 @@ $pale-blue: hsl(236, 100%, 87%);
 }
 
 body {
-    height: 100vh;
-    width: 100vw;
+    // height: 100vh;
+    margin: 10vh 0;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     font-family: 'Rubik', sans-serif;
+    background-color: $very-dark-blue;
+    color: white;
 }
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: min-content;
+
+
+}
+
+.account {
+
+
+    &__content {
+        background-color: $main-blue;
+    }
+
+    &__periods {
+        background-color: $pale-blue;
+       
+    }
+}
+
+
 
